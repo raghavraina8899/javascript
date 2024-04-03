@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+}
+
+#card{
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#card img{
+    height: 50%;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 30px;
+    border-radius: 100px;
+}
+
+#card h1{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+#card h5{
+    font-size: 15px;
+    color: blue;
+}
+#card h6{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#card #add{
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 5px 1px;
+    border-radius: 50px;
+    box-shadow:inset 5px 5px 12px rgb(169, 169, 242),
+                     2px 2px 2px rgba(0, 0, 0, 0.16);
+    margin: 8px;
+}
+
+#card #remove{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 5px 1px;
+    border-radius: 50px;
+    box-shadow:inset 5px 5px 12px rgb(176, 176, 176),
+                     2px 2px 2px rgba(0, 0, 0, 0.16);
+    margin: 8px;
+}
